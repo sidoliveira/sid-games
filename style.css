@@ -1,0 +1,254 @@
+/*
+Theme Name: Sid Games
+Author: Sidney Oliveira
+Description: Tema desenvolvido para aprimorar os conhecimentos sobre o CMS Wordpress
+*/
+
+/* ----------------------- HEADER ----------------------- */
+
+.logo{
+	width: 100%;
+	background-color: gray;
+	overflow:hidden;
+	}
+	.logo img{
+		width: 100%;
+		text-align: center;
+	}
+#menu-menu-plataformas{
+	width: 100%;
+	margin: 0;
+	padding: 15px 2%;}
+	#menu-menu-plataformas li{
+		display: inline;
+		list-style: none;
+
+		padding: 0 20px;}
+
+		#menu-menu-plataformas li a{
+			color: #28324E;
+			font-size: 26px;
+		}
+
+.conteudo-pesquisa{
+	float: right;
+	width: 250px;
+	margin-top: 7px;
+	margin-right: 20px;
+}
+
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 16px;
+}
+/* ------------------------------------------------------- */
+
+/* ----------------------- INDEX ----------------------- */
+
+.destaques{
+	text-align: center;
+	}
+	.destaques .destaque a{
+		color: #28324E;
+		text-decoration: none;
+	}
+	.destaque h1{
+		font-size: 20px;
+	}
+
+.mais-vistos{
+	color: #fff;
+	background-color: #28324E;
+	font-size: 36px;
+	padding: 20px 0;
+	margin: 0 0 40px;
+	text-align: center;
+}
+
+.ultimos-adicionados{
+	width: 100%;
+	padding: 10px;}
+	.ultimos-adicionados .jogo{
+		margin: 20px;
+		width: 280px;
+		display: inline-block;}
+		.ultimos-adicionados .jogo h1{
+			text-align: center;
+			font-size: 18px;}
+			.ultimos-adicionados .jogo p{
+			text-align: left;
+			font-size: 14px;}
+		.ultimos-adicionados .jogo a{
+			color: #000;
+		}
+		.ultimos-adicionados .jogo a:hover{
+			color: #28324E;
+			text-decoration: none;}
+
+.imagem-destaque{
+	width: 250px;
+	margin: 0 auto;
+	height: auto;
+	filter: gray;
+	-webkit-filter: grayscale(100%);
+	image-rendering: auto;
+	transition:.5s;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+
+}
+.imagem-destaque:hover{
+	filter: none;
+	-webkit-filter: grayscale(0%);
+	image-rendering: auto;
+	transition:.5s;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+}
+
+/* ------------------------------------------------------- */
+
+/* ----------------------- SINGLE ----------------------- */
+
+.conteudo-single{
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.single-title{
+	text-align: center;
+	color: #28324E;
+}
+.single-image{
+	width: 500px;
+	height: auto;
+	margin: 40px auto;
+}
+.conteudo-single p{
+	padding: 0 5%;
+}
+.contador{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: -10px;
+	font-size: 22px;
+}
+.contador-index {
+	text-align: center;
+	font-size: 16px;
+}
+
+.metabox-item {
+	background-color: red;
+}
+.table-infos th{
+	text-align: center !important;
+}
+.table-infos i{
+	font-size: 30px;
+}
+
+
+/* ------------------------------------------------------- */
+
+/* ----------------------- CATEGORIAS ----------------------- */
+
+.categoria-jogos{
+	width: 100%;}
+	.title-taxonomy{
+		background-color: #28324E;
+		color: #fff;
+		text-align: center;
+		padding: 20px 0;
+		margin-top: 0px;}
+
+.categorias{
+	text-align: center;
+	margin-top: 20px;}
+	.categorias li{
+		list-style: none;
+		padding: 20px 0;}
+		.categorias li a{
+			color: #000;
+			text-decoration: none;}
+.generos-select{
+	margin: 20px auto;
+	display: table;
+}
+.generos-select select{
+	width: 200px;
+	font-size: 20px;
+}
+.not-found{
+	text-align: center;
+	color: #28324E;
+	margin: 40px 0;
+}
+
+/* ------------------------------------------------------- */
+
+/* ----------------------- FOOTER ----------------------- */
+
+.rodape p{
+	color: #28324E;
+	font-size: 20px;
+	padding: 10px 0 0;
+	text-align: center;
+}
+
+
+
+/** =Paginate links Styles
+ ******************************************* **/
+.page-numbers {
+    float: left;
+    margin-top: 10px;    
+}
+.page-numbers li {
+    display: inline-block;
+    margin-left: 3px;    
+}
+.page-numbers a, .page-numbers .dots, .page-numbers .next, .page-numbers .prev {
+    padding: 3px 5px;
+    background: #eee;
+    text-decoration: none; 
+}
+.page-numbers a:hover, .page-numbers .next:hover, .page-numbers .prev:hover {
+    background: #666;
+}
+.page-numbers .current {
+    padding: 3px 5px;
+    background: #666;
+    color: #27B3CF;   
+}
