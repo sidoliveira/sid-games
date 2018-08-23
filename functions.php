@@ -14,7 +14,7 @@ function get_titulo() {
 	}
 }
 
-//Função para limitar resumo
+//Função para limitar resumo.
 function get_excerpt(){
 	$excerpt = get_the_content();
 	$excerpt = preg_replace(" (\[.*?\])",'',$excerpt);
